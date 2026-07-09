@@ -15,9 +15,9 @@ El desarrollo sigue la metodología clásica de un pipeline de Data Science. El 
   - Reducción de la alta dispersión mediante binning estratégico (agrupación de 75 marcas en 6 grupos competitivos, simplificación de combustibles y normativas Euro).
   - One-Hot Encoding controlado para evitar la maldición de la dimensionalidad.
 - [x] **Fase 3: Validación Estadística Pre-Modelado**
-  - Análisis de multicolinealidad mediante la Matriz de Correlación de Pearson.
-  - Test de Kaiser-Meyer-Olkin (KMO Global: `0.6316`) para medir la adecuación muestral.
-  - Test de Esfericidad de Bartlett ($\chi^2$: `6.040.526`, $p$-value: `0.0000`) confirmando la viabilidad del PCA.
+  - Análisis de multicolinealidad mediante la Matriz de Correlación.
+  - Test de Kaiser-Meyer-Olkin (KMO Global: `0.7`) para medir la adecuación muestral.
+  - Test de Esfericidad de Bartlett ($\chi^2$: `4584593.2652`, $p$-value: `0.0000`) confirmando la viabilidad del PCA.
 - [ ] **Fase 4: Reducción Dimensional (PCA)** 🚧 *Siguiente paso*
   - Análisis de la varianza explicada acumulada para seleccionar el número óptimo de componentes principales.
 - [ ] **Fase 5: Clustering con K-Means** 🕒 *Pendiente*
